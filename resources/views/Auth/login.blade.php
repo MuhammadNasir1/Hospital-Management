@@ -39,10 +39,10 @@
                           </label>
                       </div>
                      <div class="button lg:w-[100%] md:w-[100%]">
-                        <a href="#"><button type="submit"
+                        <a href="#"><button type="submit" name="sumbit"
                             class=" flex justify-center  text-white w-[100%] h-[50px] mt-[20px] bg-gradient-to-r from-[#21BEFD] to-[#2176FF] p-3  rounded-lg  tracking-wide
                     font-semibold  focus:outline-none focus:shadow-outline hover:bg-indigo-600 shadow-lg cursor-pointer transition ease-in duration-300">
-                           Register
+                         Sign in
                         </button></a>
                      </div>
                 </form>
