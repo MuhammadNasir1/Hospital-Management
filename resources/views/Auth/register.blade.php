@@ -9,7 +9,8 @@
             <h6 class="py-3 text-[#000000c0] font-serif ml-[10px] lg:text-left text-center lg:ml-[10px]">Request for a service</h6>
             {{-- ///////////// form//////// --}}
             <div class="form">
-                <form action="#" class="w-[420px] flex justify-center flex-col items-center  py-3">
+                <form action="#" class="w-[420px] flex flex-col  py-3">
+                   <div class="myform justify-center  items-center px-3">
                     <div class="lg:w-[100%] md:w-[100%]">
                         <label for="email" class="block leading-6 font-semibold text-lg text-gray-400">Email
                             address</label>
@@ -55,8 +56,9 @@
                                 class="block w-full rounded-md  py-1.5 border-2 border-gray-1000 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
                         </div>
                     </div>
+                   </div>
                     <a href="#"><button type="submit"
-                            class=" flex justify-center text-white lg:w-[100%] md:w-[100%] h-[50px] mt-[20px] bg-gradient-to-r from-[#21BEFD] to-[#2176FF] ml-[3px] p-3  rounded-lg  tracking-wide
+                            class=" flex justify-center text-white lg:w-[100%] md:w-[100%]  h-[50px] mt-[20px] bg-gradient-to-r from-[#21BEFD] to-[#2176FF] ml-[3px] p-3  rounded-lg  tracking-wide
                     font-semibold  focus:outline-none focus:shadow-outline hover:bg-indigo-600 shadow-lg cursor-pointer transition ease-in duration-300">
                            Register
                         </button></a>
