@@ -47,7 +47,7 @@
                      </div>
                 </form>
                 <p class="lg:text-left text-center font-semibold text-gray-400 lg:ml-[90px]">Forget your password? reset <a href="#" class="text-[#2176FF] font-semibold">here</a></p>
-                <p class="lg:text-left text-center font-semibold text-gray-400 lg:ml-[90px]">Don't I have account <a href="#" class="text-[#2176FF] font-semibold">Register here</a></p>
+                <p class="lg:text-left text-center font-semibold text-gray-400 lg:ml-[90px]">Don't I have account <a href="{{route('register')}}" class="text-[#2176FF] font-semibold">Register here</a></p>
             </div>
         </div>
         <div class="w-full  lg:block hidden">

@@ -63,7 +63,7 @@
                            Register
                         </button></a>
                 </form>
-                <p class="lg:text-left text-center font-semibold text-gray-400 lg:ml-[130px]">Have an account? <a href="#" class="text-[#2176FF] font-semibold">Sign In</a></p>
+                <p class="lg:text-left text-center font-semibold text-gray-400 lg:ml-[130px]">Have an account? <a href="{{route('login')}}" class="text-[#2176FF] font-semibold">Sign In</a></p>
             </div>
         </div>
         <div class="w-full  lg:block hidden">

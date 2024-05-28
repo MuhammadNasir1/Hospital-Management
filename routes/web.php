@@ -25,7 +25,7 @@ Route::get('/staff', function () {
 
 Route::get('/login', function () {
     return view('Auth.login');
-});
+})->name('login');
 Route::get('/register', function () {
     return view('Auth.register');
-});
+})->name('register');
