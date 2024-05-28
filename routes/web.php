@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\UsersController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -25,7 +26,13 @@ Route::get('/staff', function () {
 
 Route::get('/login', function () {
     return view('Auth.login');
-});
+})->name('login');
 Route::get('/register', function () {
     return view('Auth.register');
-});
+})->name('register');
+
+
+Route::post('userdata',[UsersController::class, 'insert'])->name('save');
+
+
+Route::get('fetch',[UsersController::class,'myuser'])->name('fetch');
