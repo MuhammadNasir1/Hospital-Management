@@ -20,6 +20,9 @@ Route::get('/', function () {
 Route::get('/addstaff', function () {
     return view('addstaff');
 })->name('addstaff');
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->name('dashboard');
 Route::get('/staff', function () {
     return view('staff');
 })->name("staff");
