@@ -2,8 +2,8 @@
 @extends('layouts.nav')
 @section('content')
     <div class="relative  overflow-x-auto shadow-md sm:rounded-lg">
-        <table class="w-full h-[300px]  text-lg text-center rtl:text-right border-collapse  bg-[#212529] dark:text-blue-100">
-            <thead class="text-xs text-white uppercase   border-gray-800 dark:text-green">
+        <table class="w-full h-full text-lg border broder-2 border-white text-center rtl:text-right  bg-[#991b1b] dark:text-blue-100">
+            <thead class="text-xs text-white uppercase  border-gray-800 dark:text-green">
                 <tr>
                     <th scope="col" class="px-6 py-3">
                         #
@@ -27,7 +27,7 @@
             </thead>
             <tbody>
                 @foreach ($fetch as $fetch)
-                    <tr class=" border-b border-white-400 text-white">
+                    <tr class="table-auto border  broder-2 border-white hover:border-black text-white hover:text-black hover:bg-white">
                         <td>{{ $loop->iteration }}</td>
                         <td>{{ $fetch->email }}</td>
                         <td>{{ $fetch->fname }}</td>
