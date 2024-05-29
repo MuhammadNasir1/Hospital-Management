@@ -1,0 +1,12 @@
+
+    @media (min-width:200px) and (max-width:600px) {
+        .ad-stf-btn{
+            margin-bottom: 16px;
+    }
+}
+
+@media (min-width:600px) and (max-width:640px) {
+    .ad-stf-btn{
+        margin-bottom: 16px;
+}
+}
