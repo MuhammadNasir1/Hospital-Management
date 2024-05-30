@@ -14,7 +14,7 @@
             <input type="text" name="lname" required class="w-[100%] h-[40px] mt-1 rounded-md  border-2 broder-[#5D7081]" placeholder="Enter  last name">
         </div>
         <div class="lable1 px-10  ">
-            <label for="lname" class="font-semibold">Date of brith</label>
+            <label for="brith" class="font-semibold">Date of brith</label>
             <input type="date" name="brith" required class="w-[100%] h-[40px] mt-1 rounded-md  border-2 broder-[#5D7081]" placeholder="Date of brith">
         </div>
     </div>
@@ -24,8 +24,8 @@
             <input type="text" name="age" required class="w-[100%] h-[40px] mt-1 rounded-md  border-2 broder-[#5D7081]" placeholder=" Age Here">
         </div>
         <div class="lable1 px-10 lg:ml-4">
-            <label for="lname" class="font-semibold">Gender</label>
-            <input type="text" name="lname" required class="w-[100%] h-[40px] mt-1 rounded-md  border-2 broder-[#5D7081]" placeholder="Choose Gender">
+            <label for="gender" class="font-semibold">Gender</label>
+            <input type="text" name="gender" required class="w-[100%] h-[40px] mt-1 rounded-md  border-2 broder-[#5D7081]" placeholder="Choose Gender">
         </div>
         <div class="lable1 px-10 lg:ml-5">
             <label for="role"  class="w-[100%] h-[40px]   font-semibold text-gray-900 dark:text-white">Select a Role</label>
@@ -75,7 +75,7 @@
     </div>
     <h1 class="font-bold text-xl pt-[20px]  px-10">Additional Notes / Comments</h1>
     <textarea
-    class="peer h-[114px] w-[100%] lg:mx-10 mt-2" name="message"
+    class="peer h-[114px] w-[92%] ml-10 lg-mr-[190px] mt-2" name="message"
     placeholder="Enter Message here"></textarea>
 </div>
 <button class="bg-[#1E7C38]  border-10 border-[#1E7C38] hover:border-[#5D7081] float-end text-white font-bold py-2 px-10 mb-5 mr-10 rounded">
