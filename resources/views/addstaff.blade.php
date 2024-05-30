@@ -23,7 +23,7 @@
             <label for="age" class="font-semibold">Age</label>
             <input type="text" name="age" required class="w-[100%] h-[40px] mt-1 rounded-md  border-2 broder-[#5D7081]" placeholder=" Age Here">
         </div>
-        <div class="lable1 px-10 lg:ml-4">
+        <div class="lable1 px-10 lg:ml-10">
             <label for="gender" class="font-semibold">Gender</label>
             <input type="text" name="gender" required class="w-[100%] h-[40px] mt-1 rounded-md  border-2 broder-[#5D7081]" placeholder="Choose Gender">
         </div>
@@ -44,11 +44,11 @@
             <label for="phoneno" class="font-semibold">Phone Number</label>
             <input type="tel" name="phoneno"required class="w-[100%] h-[40px] mt-1 rounded-md  border-2 broder-[#5D7081] " placeholder="Enter Phone No">
         </div>
-        <div class="lable1 px-10 lg:mr-[70px]">
+        <div class="lable1  px-10">
             <label for="email" class="font-semibold">Email</label>
-            <input type="email" name="email" required class="w-[100%] h-[40px] mt-1 rounded-md  border-2 broder-[#5D7081]" placeholder="Enter  last name">
+            <input type="email" name="email" required class="w-[100%] h-[40px] mt-1 rounded-md  border-2 broder-[#5D7081]" placeholder="Enter Email">
         </div>
-        <div class="lable1 px-10  lg:mr-[70px]">
+        <div class="lable1 px-10  lg:ml-8">
             <label for="city" class="font-semibold">City</label>
             <input type="text" name="brith" required class="w-[100%] h-[40px] mt-1 rounded-md  border-2 broder-[#5D7081]" placeholder="City here">
         </div>

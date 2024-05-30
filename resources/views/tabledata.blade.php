@@ -3,7 +3,7 @@
 @section('content')
     <div class="relative  overflow-x-auto shadow-md sm:rounded-lg">
         <table class="w-full h-full text-lg border broder-2 border-white text-center rtl:text-right  bg-white dark:text-blue-100">
-            <thead class="text-xs text-black uppercase  border-gray-800 dark:text-green">
+            <thead class="text-lg text-black uppercase  border-gray-800 dark:text-green">
                 <tr>
                     <th scope="col" class="px-6 py-3">
                         #
