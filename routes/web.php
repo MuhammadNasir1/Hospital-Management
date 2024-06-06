@@ -26,7 +26,9 @@ Route::get('/dashboard', function () {
 Route::get('/staff', function () {
     return view('staff');
 })->name("staff");
-
+Route::get('/addpatient', function () {
+    return view('addpatient');
+})->name("addpatient");
 Route::get('/login', function () {
     return view('Auth.login');
 })->name('login');
