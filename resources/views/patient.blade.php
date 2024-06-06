@@ -7,12 +7,12 @@
         <div class="sec1 h-36">
             <div class="heading h-8 mb-3 mx-2 w-80">
 
-                <h1 class="text-3xl font-semibold">Staff</h1>
+                <h1 class="text-3xl font-semibold">Add Patient</h1>
             </div>
-            <div class=" justify-between lg:flex  block gap-[520px]">
+            <div class=" justify-between lg:flex  block gap-[520px] ">
 
 
-                <div class="relative ad-stf-btn sm:mb-4 ">
+                <div class="relative ad-stf-btn sm:mb-4  ">
                     <div class="absolute inset-y-0 rtl:inset-r-0 start-0 flex items-center ps-3 pointer-events-none">
                         <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true"
                             xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
@@ -22,10 +22,10 @@
                     </div>
                     <input type="text" id="table-search-users"
                         class="block p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg w-80 bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                        placeholder="Search for doctors">
+                        placeholder="Search for Patient">
                 </div>
-                <a href="{{ route('addstaff') }}" class="bg-blue-700 lg:mt-0  w-56 text-white rounded-lg h-10 font-bold px-3 py-2 ">+ <span
-                        class="px-2 font-thin">Add Staff</span></a>
+                <a href="{{ route('addstaff') }}" class="bg-blue-700 lg:mt-0   w-56 text-white rounded-lg h-10 font-bold px-3 py-2 ">+ <span
+                        class="px-2 font-thin">Add Patient</span></a>
             </div>
 
 
