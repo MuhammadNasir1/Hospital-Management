@@ -26,10 +26,16 @@ Route::get('/dashboard', function () {
 Route::get('/staff', function () {
     return view('staff');
 })->name("staff");
+<<<<<<< HEAD
 Route::get('/patient', function () {
     return view('patient');
 })->name("patient");
 
+=======
+Route::get('/addpatient', function () {
+    return view('addpatient');
+})->name("addpatient");
+>>>>>>> 64cde64c6c9e93a85671166af4cb6686c7b48ebe
 Route::get('/login', function () {
     return view('Auth.login');
 })->name('login');
