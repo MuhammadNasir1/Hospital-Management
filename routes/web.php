@@ -27,15 +27,25 @@ Route::get('/staff', function () {
     return view('staff');
 })->name("staff");
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+Route::get('/addpatient', function () {
+    return view('addpatient');
+})->name("addpatient");
+>>>>>>> 37bb7d50b9b923fe363927048832caeb7178dffe
 Route::get('/patient', function () {
     return view('patient');
 })->name("patient");
 
+<<<<<<< HEAD
 =======
 Route::get('/addpatient', function () {
     return view('addpatient');
 })->name("addpatient");
 >>>>>>> 64cde64c6c9e93a85671166af4cb6686c7b48ebe
+=======
+>>>>>>> 37bb7d50b9b923fe363927048832caeb7178dffe
 Route::get('/login', function () {
     return view('Auth.login');
 })->name('login');
