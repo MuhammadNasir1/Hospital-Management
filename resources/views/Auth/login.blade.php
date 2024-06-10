@@ -1,10 +1,10 @@
 @extends('layouts.header')
 
-<div class=" justify-center items-center flex">
+<div class=" justify-center items-center flex overflow-hidden">
     <div class="flex justify-center items-center">
-        <div class="lg:w-[50%] w-full lg:ml-[190px] h-[660px] ">
+        <div class="lg:w-[50%] w-full lg:ml-[190px] h-[600px] ">
             <h1
-                class="lg:text-left text-center font-black text-3xl leading-6 mt-[120px] text-transparent bg-clip-text bg-gradient-to-r from-[#21BEFD] to-[#2176FF] lg:ml-[10px]">
+                class="lg:text-left text-center font-black text-3xl leading-6 mt-[100px] text-transparent bg-clip-text bg-gradient-to-r from-[#21BEFD] to-[#2176FF] lg:ml-[10px]">
                 Welcome Back</h1>
             <h6 class="py-3 text-gray-400 font-serif ml-[10px] lg:text-left text-center lg:ml-[10px] ">Create a new account <br> OR Sign in with these credential: <br> Email <span class="font-bold text-gray-600">emaill@example.com</span> <br> Password <span class="font-bold text-gray-600">Secret</span></h6>
             {{-- ///////////// form//////// --}}
@@ -40,7 +40,7 @@
                       </div>
                      <div class="button lg:w-[100%] md:w-[100%]">
                         <a href="#"><button type="submit" name="sumbit"
-                            class=" flex justify-center  text-white w-[100%] h-[50px] mt-[20px] bg-gradient-to-r from-[#21BEFD] to-[#2176FF] p-3  rounded-lg  tracking-wide
+                            class=" flex justify-center  text-white w-[100%] h-[50px] mt-[10px] bg-gradient-to-r from-[#21BEFD] to-[#2176FF] p-3  rounded-lg  tracking-wide
                     font-semibold  focus:outline-none focus:shadow-outline hover:bg-indigo-600 shadow-lg cursor-pointer transition ease-in duration-300">
                          Sign in
                         </button></a>
@@ -51,7 +51,7 @@
             </div>
         </div>
         <div class="w-full  lg:block hidden">
-            <div class="image mt-[90px] w-[80%] md:w-[95%] lg:w-[80%] ml-[10px] ">
+            <div class="image mt-[40px] w-[80%] md:w-[95%] lg:w-[80%] ml-[10px] ">
                 <img class=" w-full " src="image/img.jpg" alt="image">
             </div>
         </div>
